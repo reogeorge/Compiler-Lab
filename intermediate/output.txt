@@ -1,0 +1,18 @@
+
+MOVE R0,a
+ADD R0,b
+MOVE t1,R0
+
+MOVE R0,c
+MUL R0,d
+MOVE t2,R0
+
+MOVE R0,t1
+SUB R0,t2
+MOVE t,R0
+
+MOVE R0,t
+MOVE x,R0
+
+MOVE R0,t
+MOVE x,R0
